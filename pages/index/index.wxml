@@ -1,0 +1,10 @@
+<view class="box">
+  <view class="info">
+    <text>您的openId是：
+    <text class="copy">123456789456123311</text>
+    
+    </text>
+    <text>请联系相关技术支持人员，并把openId复制</text>
+    <button bindtap="goto">选择店铺</button>
+  </view>
+</view>

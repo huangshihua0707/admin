@@ -1,0 +1,39 @@
+<view class="box">
+  <view class="nav">
+    <text class="{{isOn == 0 ? 'on' : ''}}" bindtap="allSearch">待付款</text>
+    <text class="{{isOn == 1 ? 'on' : ''}}" bindtap="oneSearch">待打包</text>
+    <text class="{{isOn == 2 ? 'on' : ''}}" bindtap="twoSearch">待发货</text>
+    <text class="{{isOn == 3 ? 'on' : ''}}" bindtap="threeSearch">待收货</text>
+    <text class="{{isOn == 4 ? 'on' : ''}}" bindtap="threeSearch">已送达</text>
+    <text class="{{isOn ==5 ? 'on' : ''}}" bindtap="threeSearch">已完成</text>
+    <text class="{{isOn == 6 ? 'on' : ''}}" bindtap="threeSearch">已取消</text>
+  </view>
+
+  <view class="order-detail" wx:for="{{[1,2]}}">
+    <view class="address" bindtap="goto">
+      <text class="left">收货人 林先生 13871119143</text>
+      <view class="right">
+        <button>缺货</button>
+        <text > > </text>
+      </view>
+    </view>
+    <view class="p_list">
+      <view class="p-item" wx:for="{{order_list}}" id="{{item.id}}">
+        <text class="name">卡兹卡兹土豆脆片5袋装 蜂蜜黄 油口味 63g</text>
+        <text class="counts">X3</text>
+      </view>
+    </view>
+
+    <view class="status">
+      <text class="left">待付款</text>
+
+      <view class="right">
+      <text class="top">
+          实付：￥5556.1
+        </text>
+        <text class="bottom">2017-04-19 14:00</text>
+        
+      </view>
+    </view>
+  </view>
+</view>

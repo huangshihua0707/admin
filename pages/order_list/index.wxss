@@ -1,0 +1,147 @@
+text {
+  font-size: 28rpx;
+}
+
+view {
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6f6;
+}
+
+.nav {
+  background-color: #fff;
+  padding: 10rpx;
+  display: block;
+  margin-bottom: 20rpx;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.nav text {
+  text-align: center;
+  line-height: 56rpx;
+  width: 25%;
+  padding: 15rpx 20rpx;
+}
+
+.on {
+  color: #f39700;
+  border-bottom: 2px #f39700 solid;
+}
+
+.order-detail {
+  margin-bottom: 20rpx;
+}
+
+.order-detail .address {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  height: 80rpx;
+  padding-left: 20rpx;
+}
+
+.address text {
+  line-height: 80rpx;
+}
+
+.address .left {
+  flex: 2;
+  color: #f39700;
+  font-weight: 600;
+}
+
+.address .right {
+  flex: 1;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+}
+
+.address .right  button {
+  width: 110rpx;
+  height: 60rpx;
+  background-color: #00bbff;
+  color: #fff;
+  line-height: 67rpx;
+  font-size: 26rpx;
+  align-self: center;
+}
+
+.address .right  text {
+  font-size: 40rpx;
+  padding-right: 20rpx;
+}
+
+.p_list {
+  padding-left: 20rpx;
+  padding-top: 20rpx;
+}
+
+.p-item {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20rpx;
+}
+
+.p_list .p-item:last-child {
+  border-bottom: 1rpx #d8d8d8 solid;
+}
+
+.p-item  text {
+  line-height: 60rpx;
+}
+
+.p-item .name {
+  flex: 8;
+}
+
+.p-item .counts {
+  flex: 1;
+}
+
+.total {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20rpx;
+  align-items: center;
+  align-content: center;
+}
+
+.total text {
+  padding-bottom: 10rpx;
+}
+
+.total .left {
+  flex: 2;
+  color: #666;
+}
+
+.total .right {
+  flex: 1;
+  color: #e75553;
+  align-self: center;
+}
+
+.order-detail .status {
+  padding: 10rpx 20rpx 10rpx 20rpx;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  height: 80rpx;
+  align-items: center;
+}
+
+.status .left {
+  flex: 2;
+}
+.status .right {
+  flex: 1;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.status .right text {
+  flex: 1;
+  
+}

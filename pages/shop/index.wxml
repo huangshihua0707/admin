@@ -1,0 +1,8 @@
+<view class="box">
+  <view class="list">
+    <view class="item" bindtap="goto">永清街1店</view>
+    <view class="item"> 永清街2店 </view>
+    <view class="item"> 永清街3店 </view>
+    <view class="item"> 永清街4店 </view>
+  </view>
+</view>

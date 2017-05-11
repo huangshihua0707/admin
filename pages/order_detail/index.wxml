@@ -1,0 +1,50 @@
+<view class="box">
+  <view class="address_detail">
+    <text class="title">收货地址</text>
+    <view class="userinfo">
+      <view>
+        <text class="left">某某某 15987382749</text>
+        <text class="right">待付款</text>
+      </view>
+      <text>湖北省武汉市江岸区永清小路永青汇大厦6楼百昌科技</text>
+    </view>
+  </view>
+  <view class="order">
+    <view class="count">
+      <image src="images/list.png" />
+      <text class="left">购物清单</text>
+      <text class="right">商品总数 * 2</text>
+    </view>
+    <view class="orderlist">
+      <view class="order-item" wx:for="{{order_list}}" id="{{item.id}}">
+        <text class="name">卡兹卡兹土豆脆片5袋装 蜂蜜黄 油口味 63g</text>
+        <text class="empty"></text>
+        <text class="price">￥155.9</text>
+        <text class="counts">X3</text>
+      </view>
+      <view class="order-item">
+        <text class="name">配送费</text>
+        <text class="empty"></text>
+        <text class="price">￥8</text>
+        <text class="counts">X1</text>
+      </view>
+    </view>
+    <view class="total">
+      <text class="left">
+      </text>
+      <text class="right">
+        小计：<text class="price">￥5556.1</text> 
+      </text>
+    </view>
+  </view>
+  <view class="order_detail">
+    <view class="detail">
+      <text class="left">订单编号</text>
+      <text class="right">0420348273629</text>
+    </view>
+    <view class="detail">
+      <text class="left">下单时间</text>
+      <text class="right">2017-04-20 9:30</text>
+    </view>
+  </view>
+</view>

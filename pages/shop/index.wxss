@@ -1,0 +1,23 @@
+text {
+  font-size: 28rpx;
+}
+
+.list {
+  margin-top: 100rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20rpx;
+  height: 80rpx;
+  justify-content: center;
+  background-color: #0088a8;
+  width: 350rpx;
+  border-radius: 10rpx;
+  text-align: center;
+  margin: 20rpx auto;
+  color: #fff;
+}
